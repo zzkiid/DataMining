@@ -15,14 +15,14 @@
 ### 实验运行结果
 ![运行结果](pic/result_digit.jpg)
 ### 可视化
-&ensp;&ensp;&ensp;&ensp;&ensp;对数据中的每张图片，进行PCA进行降维<br>                  
+&ensp;&ensp;&ensp;&ensp;&ensp;对数据中的每张图片，进行PCA进行降维                
 ![结果图](pic/digit.jpg)
 ## 文本数据集上的个算法的比较
 &ensp;&ensp;&ensp;&ensp;由于该数据集有20类样本，如果考虑20类样本的话，数据过多，聚类的时间会较慢，而且也不便于可视化，所以此次选取了数据集中的4类样本来进行聚类
 ### 运行结果
 ![运行结果](pic/result_doc.jpg)
 ### 可视化
-&ensp;&ensp;&ensp;&ensp;对于数据汇总中的每个文本，用svd进行降维<br>
+&ensp;&ensp;&ensp;&ensp;对于数据汇总中的每个文本，用svd进行降维
 ![结果图](pic/document.jpg)
 ## 各类聚类算法比较
 ### Kmeans算法
@@ -54,3 +54,6 @@
 *    &ensp;&ensp;&ensp;&ensp;在运行DBSCAN算法时，关键是epsilon和MinPoint的选择，在进行实验时要根据数据的特点进行选择
 ### Gaussian Mixtures 算法
 *    &ensp;&ensp;&ensp;&ensp;事实上，Gaussian Mixtures Model (GMM) 和 k-means 很像，不过 GMM 是学习出一些概率密度函数来（所以 GMM 除了用在 clustering 上之外，还经常被用于 density estimation ），简单地说，k-means 的结果是每个数据点被 assign 到其中某一个 cluster 了，而 GMM 则给出这些数据点被 assign 到每个 cluster 的概率，又称作 soft assignment 。
+### 结果比较图
+*    &ensp;&ensp;&ensp;&ensp;为了形象的展示每个聚类算法的不同，我们展示了在不同生成数据集上的效果
+![结果图](pic/comparion.jpg)
