@@ -50,4 +50,7 @@
         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;两个簇所有样本共同决定。 
 ### AgglomerativeClustering算法
 ### DBSCAN算法
+*    &ensp;&ensp;&ensp;&ensp;DBSCAN是基于密度空间的聚类算法，与KMeans算法不同，它不需要确定聚类的数量，而是基于数据推测聚类的数目，它能够针对任意形状产生聚类。
+*    &ensp;&ensp;&ensp;&ensp;在运行DBSCAN算法时，关键是epsilon和MinPoint的选择，在进行实验时要根据数据的特点进行选择
 ### Gaussian Mixtures 算法
+*    &ensp;&ensp;&ensp;&ensp;事实上，Gaussian Mixtures Model (GMM) 和 k-means 很像，不过 GMM 是学习出一些概率密度函数来（所以 GMM 除了用在 clustering 上之外，还经常被用于 density estimation ），简单地说，k-means 的结果是每个数据点被 assign 到其中某一个 cluster 了，而 GMM 则给出这些数据点被 assign 到每个 cluster 的概率，又称作 soft assignment 。
