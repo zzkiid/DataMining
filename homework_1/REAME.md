@@ -41,13 +41,13 @@
 *    
 ### Ward hierarchical clustering算法
 *    &ensp;&ensp;&ensp;&ensp;层次聚类算法主要思想：初始时将每个数据点视为一个类别，选取两个距离最近的类将其合并，这样不断的迭代最终达到想要的类别数停止
-*    &ensp;&ensp;&ensp;&ensp;&ensp;算法最主要的就是要选择簇间距离的更新，常用的簇间距离的更新规则如下：<br>
-      1.最小距离，单链接Single Linkage <br>
-        两个簇的最近样本决定。<br> 
-      2.最大距离，全链接Complete Linkage <br>
-        两个簇的最远样本决定。 <br>
-      3.平均距离，均链接Average Linkage<br>
-        两个簇所有样本共同决定。 
+*    &ensp;&ensp;&ensp;&ensp;算法最主要的就是要选择簇间距离的更新，常用的簇间距离的更新规则如下：<br>
+      &ensp;&ensp;&ensp;&ensp;&ensp;1.最小距离，单链接Single Linkage <br>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;两个簇的最近样本决定。<br> 
+      &ensp;&ensp;&ensp;&ensp;&ensp;2.最大距离，全链接Complete Linkage <br>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;两个簇的最远样本决定。 <br>
+      &ensp;&ensp;&ensp;&ensp;&ensp;3.平均距离，均链接Average Linkage<br>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;两个簇所有样本共同决定。 
 ### AgglomerativeClustering算法
 ### DBSCAN算法
 ### Gaussian Mixtures 算法
