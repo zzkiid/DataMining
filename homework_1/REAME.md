@@ -10,7 +10,7 @@
 ### Gaussian Mixtures 算法
 ## 手写字数据集上的各算法的比较
 ### 实验运行结果
-![运行结果](pic/digit.png)
+![运行结果](pic/result_digit.png)
 ### 可视化
 ## 文本数据集上的个算法的比较
 ### 运行结果
