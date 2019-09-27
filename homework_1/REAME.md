@@ -61,6 +61,6 @@
 *    &ensp;&ensp;&ensp;&ensp;不同的聚类算法有各自的特点。在聚类算法中有基于距离的算法，也有基于密度的算法，还有基于概率分布的算法，不同的算法在处理不同的问题上有着自己的特点，对于digit数据集来说，我们可以发现KMeans，层次聚类还有Agglomerative聚类算法的效果比较好。而对于document数据集来说，KMeans算法和Gaussian Mixtures算法比较好。
 
 ## 代码
-[digits数据集聚类代码](https://www.baidu.com/ "digits数据集")<br>
+[digits数据集聚类代码](homework_1.ipynb "digits数据集")<br>
 [document数据集聚类算法](https://www.baidu.com/ "document数据集")<br>
 [各类算法的比较](https://www.baidu.com/ "各类算法的在不同数据集上的比较")<br>
