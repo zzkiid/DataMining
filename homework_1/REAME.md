@@ -15,4 +15,6 @@
 ![结果图](pic/digit.jpg)
 ## 文本数据集上的个算法的比较
 ### 运行结果
+![运行结果](pic/result_doc.png)
 ### 可视化
+![结果图](pic/document.jpg)
