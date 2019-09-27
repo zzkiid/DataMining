@@ -7,6 +7,10 @@
 * 数据示例
   > ![示例数据](pic/digit_sample.jpg)
 ## 手写字数据集上的各算法的比较
+* 调用方法
+  >`sklearn.datasets.fetch_20newsgroups()`
+* 数据示例
+  > ![示例数据](pic/doc_sample.jpg)
 ### 实验运行结果
 ![运行结果](pic/result_digit.png)
 ### 可视化
