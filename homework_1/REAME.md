@@ -13,7 +13,7 @@
   > ![示例数据](pic/doc_sample.jpg)
 ## 手写字数据集上的各算法的比较
 ### 运行结果
-![运行结果](pic/result_digit.png)
+![运行结果](pic/result_digit.jpg)
 ### 可视化
 &ensp;&ensp;&ensp;&ensp;&ensp;对数据中的每张图片，进行PCA进行降维                
 ![可视化](pic/digit.jpg)
