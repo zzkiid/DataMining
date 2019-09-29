@@ -63,4 +63,4 @@
 ## 代码
 [digits数据集聚类代码](homework_1.ipynb "digits数据集")<br>
 [document数据集聚类算法](https://www.baidu.com/ "document数据集")<br>
-[各类算法的比较](https://www.baidu.com/ "各类算法的在不同数据集上的比较")<br>
+[各类算法的比较](https://www.baidu.com/ "各类算法的在不同数据集上的比较")<br><br>
