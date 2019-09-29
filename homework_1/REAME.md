@@ -13,10 +13,10 @@
   > ![示例数据](pic/doc_sample.jpg)
 ## 手写字数据集上的各算法的比较
 ### 运行结果
-![运行结果](pic/result_digit.jpg)
+![运行结果](pic/result_digit.png)
 ### 可视化
 &ensp;&ensp;&ensp;&ensp;&ensp;对数据中的每张图片，进行PCA进行降维                
-![可视化](pic/digit.png)
+![可视化](pic/digit.jpg)
 ## 文本数据集上的个算法的比较
 &ensp;&ensp;&ensp;&ensp;由于该数据集有20类样本，如果考虑20类样本的话，数据过多，聚类的时间会较慢，而且也不便于可视化，所以此次选取了数据集中的4类样本来进行聚类
 ### 运行结果
